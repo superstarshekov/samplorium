@@ -1,0 +1,58 @@
+#messageArea {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+
+}
+
+.name {
+    color: black;
+    font-style: italic;
+}
+
+.message {
+    background-color: lightskyblue;
+    color: black;
+    width: fit-content;
+}
+
+.time {
+    color: black;
+}
+
+.name, .message, .time {
+    margin-left: 50px;
+}
+
+.inputArea {
+    background-color: lightskyblue;
+    height: 130px;
+    padding-top: 50px;
+}
+
+.inputArea input {
+    width: 400px;
+    margin-left: 50px;
+}
+
+.inputArea button {
+    width: 100px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+
+}

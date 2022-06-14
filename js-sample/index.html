@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 9 - JS DOM Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="task1">
+    <table id="table">
+      <tr>
+        <td onclick="handleCellClick(this, 0)">Cell</td>
+        <td onclick="handleCellClick(this, 0)">Cell</td>
+        <td onclick="handleCellClick(this, 0)">Cell</td>
+      </tr>
+      <tr>
+        <td onclick="handleCellClick(this, 1)">Cell</td>
+        <td onclick="handleCellClick(this, 1)">Cell</td>
+        <td onclick="handleCellClick(this, 1)">Cell</td>
+      </tr>
+      <tr>
+        <td onclick="handleCellClick(this, 2)">Cell</td>
+        <td onclick="handleCellClick(this, 2)">Special cell</td>
+        <td onclick="handleCellClick(this, 2)">Cell</td>
+      </tr>
+    </table>
+
+  </div>
+
+<div class="playfield">
+  <div id="basketball">
+    <img class="ball" src="./assets/ball.png" id="ball">
+  </div>
+  <div>
+      <label>Team A: </label>
+      <label id="teamAScore">0</label>
+      <label>Team B: </label>
+      <label id="teamBScore">0</label>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</div>
+
+</html>

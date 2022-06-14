@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto';
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+#push-btn {
+    color: white;
+    border-color: #111;
+}
+
+#push-btn:hover {
+    color: white;
+    background-color: coral;
+    border-color: lightcoral;
+}
+
+#find-btn {
+    color: white;
+    background-color: coral;
+    border-color: lightcoral;
+}
+
+#find-btn:hover {
+    color: white;
+    background-color: #111;
+    border: #111;
+}
+
+.text-left {
+    color: #525252;
+}
+
+#first-section {
+    background-color: #525252;
+    color: white;
+}
+
+#second-section {
+    background-color: white;
+    color: #111;
+}
+
+footer {
+    background-color: #525252;
+    color: white;
+}
+
+#subscribe-btn {
+    background-color: coral;
+    border-color: lightcoral;
+    color: white;
+}
+
+#subscribe-btn:hover {
+    background-color: #111;
+    border-color: #111;
+    color: white;
+}
+
+#subscribe-line {
+    font-size: 1.5em;
+}

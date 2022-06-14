@@ -1,0 +1,57 @@
+/* Sample 1 */
+
+#table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    text-align: center;
+    background-color: white;
+}
+
+.td_yellow {
+    background-color: yellow;
+}
+
+.td_blue {
+    background-color: blue;
+}
+
+.td_green {
+    background-color: green;
+}
+
+/* Sample 2 */
+
+.playfield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#basketball {
+    background-image: url('./assets/court.png');
+    width: 600px;
+    height: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    left: 280px;
+    top: 145px;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
